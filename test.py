@@ -698,7 +698,7 @@ async def _job_delete_wrapper(context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    token = os.environ.get("TELEGRAM_TOKEN")
+    token = ("7711538246:AAFqtCPa6Po_oCr3UcV94lgd76O2BN0ZNV4")
     if not token:
         print("Set the TELEGRAM_TOKEN environment variable and run this script.")
         return
